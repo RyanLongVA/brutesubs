@@ -1,3 +1,9 @@
+# Modifications: 
+# Ryan Long
+If you want to understand how everything works, read the orginal's setup, then hopefully that will make the basic code readable. 
+
+
+
 # brutesubs
 An automation framework for running multiple open sourced subdomain bruteforcing tools (in parallel) using your own wordlists via Docker. If you are not familiar with Docker, I highly recommend you familiarize yourself first. 
 
