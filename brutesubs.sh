@@ -72,3 +72,6 @@ sudo chown -R $USER:$USER myoutdir/$save_folder
 #echo "This is just a trial idea for a quick and more thorough inspection"
 #cat massUrls.txt | grep "$domain" > visualData.txt
 #python ../../scripts/
+
+#altdns.py to masscan : disable if on bad wifi
+#sh bash/altToMassOut.sh $1 $2
