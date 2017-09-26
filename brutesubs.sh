@@ -53,26 +53,3 @@ echo "Docker scripts complete running massdns to resolve"
 sudo chown -R $USER:$USER myoutdir/$save_folder
 mv myoutdir/$save_folder/finalresult.txt ./myoutdir/$save_folder.txt
 rm -r -d myoutdir/$save_folder
-#Let's just see if go all.txt works
-
-#./massdns/bin/massdns -r massdns/resolvers.txt -t A -a -o -w ./myoutdir/$save_folder/massdnsOut1.txt ./myoutdir/$save_folder/finalresult.txt
-#./massdns/bin/massdns -r massdns/resolvers.txt -t A -a -o -w ./myoutdir/$save_folder/massdnsOut2.txt ./myoutdir/$save_folder/finalresult.txt
-#sort -u ./myoutdir/$save_folder/massdnsOut1.txt ./myoutdir/$save_folder/massdnsOut2.txt | grep $domain > ./myoutdir/$save_folder/massTemp.txt
-#./massdns/bin/massdns -r massdns/resolvers.tdt -t A -a -o -w ./myoutdir/$save_folder/massdnsOut3.txt ./myoutdir/$save_folder/finaloutputbeforealtdns.txt
-#sort -u ./myoutdir/$save_folder/massndOut3.txt ./myoutdir/$save_folder | grep $domain > ./myoutdir/massdnsFinal.txt
-#echo "--> massdns complete <--"
-#cd ./myoutdir/$save_folder/
-#python ../../scripts/massdnsToHttpscreen.py -m massdnsOut.txt -o massUrls.txt
-#mkdir screenshots; cd screenshots
-#echo "--> formatting before screenshots complete <--"
-#python ../../../httpscreenshot-master/httpscreenshot.py -l ../massUrls.txt -p -v -vH -tG -sF -t 15 -r 2 -w 10
-#cd ..
-
-#echo "Starting manual inspection using -- cat massUrls.txt | grep "$domain" > visualdata.txt"
-#echo "You can quit and look at the screenshot/ directory if you want" 
-#echo "This is just a trial idea for a quick and more thorough inspection"
-#cat massUrls.txt | grep "$domain" > visualData.txt
-#python ../../scripts/
-
-#altdns.py to masscan : disable if on bad wifi
-#sh bash/altToMassOut.sh $1 $2
