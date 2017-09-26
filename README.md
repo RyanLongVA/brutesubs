@@ -1,6 +1,7 @@
 # Modifications: 
-# Ryan Long
+### Ryan Long
 If you want to understand how everything works, read the orginal's setup, then hopefully that will make the basic code readable. 
+Just use gits 'compare' feature if you want to know what's changed. Basically modified some of the ./script/* files, and negated the altdns portion of the tool.
 
 
 
