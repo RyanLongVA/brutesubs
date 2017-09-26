@@ -32,9 +32,9 @@ gobusterfile=/data/output/gobusteroutput.txt
 enumallfile=/data/output/enumalloutput.txt
 sublist3rfile=/data/output/sublist3routput.txt
 
-google_api=<AIzaSyCYufQ5VHHQQduOVXjR7OUdwnII2jGDZSg>
-google_cse=<003114698927244105763:ejrijffucby>
-shodan_api=<4gszwAgiHh15LjMvrcV3bBF0pdVMnYil>
+google_api=<>
+google_cse=<>
+shodan_api=<>
 
 altdnsserver=8.8.8.8
 
